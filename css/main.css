@@ -1,0 +1,242 @@
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.pacific {
+  font-family: "Pacifico", cursive;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+/* --- Portada --- */
+
+.bg-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url(../assets/images/bg.png) center center;
+  background-size: cover;
+  color: white;
+  height: ;
+}
+
+header nav.transparent {
+  background-color: transparent;
+  color: white;
+}
+
+.h-65 {
+  height: 65vh;
+}
+
+.p-10 {
+  padding-top: 15rem;
+}
+
+.p-2{
+  padding-top: 2rem;
+}
+
+.down {
+  color: rgb(255, 156, 7);
+  position: absolute;
+  right: 0.5em;
+  top: 10em;
+  z-index: 5;
+  font-size: 3em;
+}
+
+.down:hover {
+  color: #3c4658;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(255, 156, 7);
+}
+
+.white {
+  color: white;
+}
+
+.title h1 {
+  font-size: 3rem;
+  color: rgb(255, 156, 7);
+}
+
+.icons {
+  width: 3rem;
+  margin: 0.5rem;
+}
+
+.github {
+  width: 4rem;
+  margin: 0.5rem;
+}
+
+/* About */
+
+.about {
+  z-index: -5;
+  height: 100vh;
+  padding-top: 4em;
+}
+
+.icons-title {
+  width: 11%;
+  margin-right: 0.5em;
+}
+
+.photo{
+  background-image: url("../assets/images/profile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-bottom-left-radius: 10%;
+  margin: 1rem;
+}
+
+.descrip {
+  font-size: 1.4em;
+  padding-top: 1.5em;
+}
+
+.arrow-down {
+  top: 25rem;
+}
+
+/* Skills */
+
+.skills {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding-top: 6rem;
+}
+
+.habilidades {
+  margin-bottom: 1.2rem;
+}
+
+.habilidades .hvr-pop {
+  display: inline-block;
+  font-size: 5rem;
+  padding: 0.15rem;
+}
+
+.habilidades .hvr-pop:hover {
+  color: rgb(255, 156, 7);
+}
+
+.sub-skills {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Proyectos */
+
+.height-web {
+  height: 157vh;
+}
+
+.projects {
+  height: 205vh;
+  width: 100%;
+  position: relative;
+}
+
+.top {
+  padding-top: 6em;
+}
+
+.boton {
+  background-color: rgb(245, 80, 127);
+  font-family: "Lato", sans-serif;
+}
+
+.boton:hover {
+  color: #FFF;
+}
+
+.projects .top h3 {
+  margin-bottom: 0.8em;
+}
+
+.pd-work {
+  padding-top: 2.5em;
+}
+
+.shadow {
+  box-shadow: 0px 9px 5px 0px rgba(189, 183, 189, 1);
+  width: 90%;
+  position: relative;
+}
+
+.work {
+  width: 100%;
+}
+
+.tamanio-w {
+  width: 100%;
+}
+
+.code {
+  color: rgb(255, 156, 7);
+}
+
+.code:hover {
+  color: #FFF;
+}
+
+.info {
+  padding: 1em;
+}
+
+  @media (min-width: 768px) {
+ 
+    .title h1 {
+      font-size: 4rem;
+    }
+    
+    .title .study {
+      font-size: 2rem;
+      margin-top:2rem;
+    }
+  
+    .down {
+      right: 0.5em;
+      top: 15.5em;
+      z-index: 4;
+    }
+  
+    .decoration li a {
+      font-size: 2.7em;
+    }
+  
+    .photo{
+      width: 420px;
+      height: 420px;
+    }
+  }
