@@ -30,10 +30,9 @@ body {
 /* --- Portada --- */
 
 .bg-img {
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url(../assets/images/bg-min.png) center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.35)), url(../assets/images/bg.png) center center;
   background-size: cover;
   color: white;
-  box-shadow: #3c4658;
 }
 
 header nav.transparent {
@@ -42,7 +41,7 @@ header nav.transparent {
 }
 
 .h-65 {
-  height: 66vh;
+  height: 65vh;
 }
 
 .p-10 {
@@ -172,7 +171,7 @@ a:hover {
 }
 
 .boton {
-  background-color:  rgb(255, 156, 7);;
+  background-color: rgb(245, 80, 127);
   font-family: "Lato", sans-serif;
 }
 

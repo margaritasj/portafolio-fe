@@ -2,10 +2,10 @@ particlesJS('particles-js',
   {
     'particles': {
       'number': {
-        'value': 160,
+        'value': 180,
         'density': {
           'enable': true,
-          'value_area': 800
+          'value_area': 500
         }
       },
       'color': { 'value': '#ffffff' },
@@ -15,11 +15,11 @@ particlesJS('particles-js',
           'width': 0,
           'color': '#000000'
         },
-        'polygon': { 'nb_sides': 5 },
+        'polygon': { 'nb_sides': 10 },
         'image': {
           'src': 'img/github.svg',
-          'width': 100,
-          'height': 100
+          'width': 50,
+          'height': 50
         }
       },
       'opacity': {
@@ -27,7 +27,7 @@ particlesJS('particles-js',
         'random': true,
         'anim': {
           'enable': true,
-          'speed': 1,
+          'speed': 2,
           'opacity_min': 0,
           'sync': false
         }
@@ -38,20 +38,20 @@ particlesJS('particles-js',
         'anim': {
           'enable': false,
           'speed': 4,
-          'size_min': 0.3,
+          'size_min': 0.2,
           'sync': false
         }
       },
       'line_linked': {
         'enable': false,
-        'distance': 150,
+        'distance': 120,
         'color': '#ffffff',
         'opacity': 0.4,
         'width': 1
       },
       'move': {
         'enable': true,
-        'speed': 1,
+        'speed': 2,
         'direction': 'none',
         'random': true,
         'straight': false,
@@ -79,18 +79,19 @@ particlesJS('particles-js',
       },
       'modes': {
         'grab': {
-          'distance': 400,
+          'distance': 300,
           'line_linked': { 'opacity': 1 }
         },
         'bubble': {
           'distance': 250,
-          'size': 0, 'duration': 2,
+          'size': 0, 
+          'duration': 1.5,
           'opacity': 0,
-          'speed': 3
+          'speed': 2
         },
         'repulse': {
           'distance': 400,
-          'duration': 0.4
+          'duration': 0.3
         },
         'push': { 'particles_nb': 4 },
         'remove': { 'particles_nb': 2 }
