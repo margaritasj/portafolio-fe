@@ -215,6 +215,116 @@
       </div>
     </div>
   </section>
+  <section id="contact-form-section" class="form-content-wrap">
+    <div class="container">
+      <div class="row">
+        <div class="tab-content">
+          <div class="col-sm-12">
+            <div class="item-wrap">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="item-content colBottomMargin">
+                    <div class="item-info">
+                      <h2 class="item-title text-center">Formulario contacto </h2>
+                    </div>
+                    <!--End item-info -->
+                  </div>
+                  <!--End item-content -->
+                </div>
+                <!--End col -->
+                <div class="col-md-12">
+                  <form id="contactForm" name="contactform" data-toggle="validator" class="popup-form" novalidate="true">
+                    <div class="row">
+                      <div id="msgContactSubmit" class="hidden"></div>
+
+                      <div class="form-group col-sm-6 has-error has-danger">
+                        <div class="help-block with-errors">
+                          <ul class="list-unstyled">
+                            <li>Por favor ingresa tu nombre</li>
+                          </ul>
+                        </div>
+                        <input name="fname" id="fname" placeholder="Tu nombre*" class="form-control" type="text" required="" data-error="Por favor ingresa tu nombre">
+                        <div class="input-group-icon">
+                          <i class="fa fa-user"></i>
+                        </div>
+                      </div>
+                      <!-- end form-group -->
+                      <div class="form-group col-sm-6 has-error has-danger">
+                        <div class="help-block with-errors">
+                          <ul class="list-unstyled">
+                            <li>Por favor ingresa un correo electrónico válido</li>
+                          </ul>
+                        </div>
+                        <input name="email" id="email" placeholder="Tu E-mail*" pattern=".*@\w{2,}\.\w{2,}" class="form-control" type="email" required=""
+                          data-error="Por favor ingresa un correo electrónico válido">
+                        <div class="input-group-icon">
+                          <i class="fa fa-envelope"></i>
+                        </div>
+                      </div>
+                      <!-- end form-group -->
+                      <div class="form-group col-sm-6 has-error has-danger">
+                        <div class="help-block with-errors">
+                          <ul class="list-unstyled">
+                            <li>Por favor ingresa tu número de teléfono</li>
+                          </ul>
+                        </div>
+                        <input name="phone" id="phone" placeholder="Teléfono*" class="form-control" type="text" required="" data-error="Por favor ingresa tu número de teléfono">
+                        <div class="input-group-icon">
+                          <i class="fa fa-phone"></i>
+                        </div>
+                      </div>
+                      <!-- end form-group -->
+                      <div class="form-group col-sm-6 has-error has-danger">
+                        <div class="help-block with-errors">
+                          <ul class="list-unstyled">
+                            <li>Por favor ingresa el asunto</li>
+                          </ul>
+                        </div>
+                        <input name="subject" id="subject" placeholder="Asunto*" class="form-control" type="text" required="" data-error="Por favor ingresa el asunto">
+                        <div class="input-group-icon">
+                          <i class="fa fa-book"></i>
+                        </div>
+                      </div>
+                      <!-- end form-group -->
+                      <div class="form-group col-sm-12 has-error has-danger">
+                        <div class="help-block with-errors">
+                          <ul class="list-unstyled">
+                            <li>Por favor ingresa un mensaje</li>
+                          </ul>
+                        </div>
+                        <textarea rows="3" name="message" id="message" placeholder="Escribe tu comentario aquí*" class="form-control" required=""
+                          data-error="Por favor ingresa un mensaje"></textarea>
+                        <div class="textarea input-group-icon">
+                          <i class="fa fa-pencil"></i>
+                        </div>
+                      </div>
+                      <!-- end form-group -->
+                    <div class="form-group last col-sm-12">
+                        <button type="submit" id="submit" class="btn btn-custom disabled">
+                          <i class="fa fa-envelope"></i> Enviar</button>
+                      </div>
+                      <!-- end form-group -->
+                      <span class="sub-text">* Campos requeridos</span>
+                      <div class="clearfix"></div>
+                    </div>
+                    <!-- end row -->
+                  </form>
+                  <!-- end form -->
+                </div>
+              </div>
+              <!--End row -->
+              <!-- Popup end -->
+            </div>
+            <!-- end item-wrap -->
+          </div>
+          <!--End col -->
+        </div>
+        <!--End tab-content -->
+      </div>
+      <!--End row -->
+    </div>
+    <!--End container -->
+  </section>
 
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -228,6 +338,7 @@
   <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
   <script src="vendors/js/particles.min.js"></script>
   <script src="js/index.js"></script>
+  <script src="js/contact-form.js"></script>
 </body>
 
 </html>
