@@ -9,38 +9,36 @@
   <link href="https://fonts.googleapis.com/css?family=Lato|Pacifico|Raleway:700" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="vendors/animate.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="vendors/css/animate.css">
+  <link rel="stylesheet" href="vendors/css/hover.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body data-spy="scroll" data-target="#navbar-portafolio">
-  <!-- particles.js container -->
-  <div id="particles-js">
-  </div>
   <div class="bg-img">
     <header class="raleway" id="home">
-      <nav id="navbar-portafolio" class="navbar transparent fixed-top pb-0 pt-0 navbar-expand-sm ">
+      <nav id="navbar-portafolio" class="navbar nav-black transparent fixed-top pb-0 pt-0 navbar-expand-sm ">
         <a class="navbar-brand white ml-3 raleway" data-scroll href="#welcome"> Margarita Sutta
           <img src="" alt="">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+        <button class="navbar-toggler white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
           aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars animated pulse infinite"></i>
         </button>
         <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
           <ul class="navbar-nav nav nav-pills ml-auto mt-2 mt-lg-0 ">
-            <li class="nav-item pl-2 ">
+            <li class="nav-item p-2 ">
               <a class="nav-link white upper space font-w1" data-scroll href="#about">SOBRE MI</a>
             </li>
-            <li class="nav-item pl-2">
+            <li class="nav-item p-2">
               <a class="nav-link  white upper space font-w1" data-scroll href="#skills">HABILIDADES</a>
             </li>
-            <li class="nav-item pl-2">
+            <li class="nav-item p-2">
               <a class="nav-link white upper space font-w1" data-scroll href="#projects">PROYECTOS</a>
             </li>
-            <li class="nav-item pl-2">
-              <a class="nav-link white upper space font-w1" data-scroll href="#">CONTACTO</a>
+            <li class="nav-item p-2">
+              <a class="nav-link white upper space font-w1" data-scroll href="#contact">CONTACTO</a>
             </li>
           </ul>
         </div>
@@ -50,24 +48,30 @@
       <div class=" h-65 title text-center white">
         <h1 class="pacific">Margarita Sutta Juarez</h1>
         <h4 class="study raleway txt">Front-end Developer</h4>
-        <a href="https://www.linkedin.com/in/margarita-sutta/" target="_blank">
-          <img src="assets/images/in.png" class="icons">
-        </a>
-        <a href="https://github.com/MargaritaSJ" target="_blank">
-          <img src="assets/images/github.png" class="icons github">
-        </a>
-        <a href="#about" id="down">
-          <i class="fas fa-angle-down down animated pulse infinite"></i>
-        </a>
+        <div class="d-flex justify-content-center">
+          <a href="https://www.linkedin.com/in/margarita-sutta/" class="a-links" target="_blank">
+            <img src="assets/images/in.png" class="icons">
+          </a>
+          <a href="https://github.com/margaritasj" class="a-links" target="_blank">
+            <img src="assets/images/github.png" class="icons github">
+          </a>
+          <a href="#about" id="down">
+            <i class="fas fa-angle-down down animated pulse infinite"></i>
+          </a>
+        </div>
       </div>
     </section>
   </div>
+  <!-- particles.js container -->
+  <div id="particles-js">
+
+  </div>
   <section id="about" class="container about">
-    <div class="row p-2">
+    <div class="row p-6 align-baseline">
       <div class="col-xs-12 col-sm-6 col-md-6 text-center pad-top">
         <div class="photo smoove d-none d-sm-block"></div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 text-center pd-l negro pad-top-q">
+      <div class="col-xs-12 col-sm-6 col-md-6 text-center negro pad-top-q">
         <div>
           <div class="card border-light mb-3" style="max-width: 35rem;">
             <div class="card-header">
@@ -98,7 +102,7 @@
       </div>
     </div>
   </section>
-  <section id="skills" class="container-fluid skills text-center  p-2">
+  <section id="skills" class="container-fluid skills text-center  p-6">
     <h3 class="raleway titulos smoove">
       <img src="assets/images/mortarboard.svg" class="icons-title animated pulse infinite">HABILIDADES</h3>
     <div class="container-fluid pd-top-hab">
@@ -215,115 +219,55 @@
       </div>
     </div>
   </section>
-  <section id="contact-form-section" class="form-content-wrap">
-    <div class="container">
-      <div class="row">
-        <div class="tab-content">
-          <div class="col-sm-12">
-            <div class="item-wrap">
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="item-content colBottomMargin">
-                    <div class="item-info">
-                      <h2 class="item-title text-center">Formulario contacto </h2>
-                    </div>
-                    <!--End item-info -->
-                  </div>
-                  <!--End item-content -->
-                </div>
-                <!--End col -->
-                <div class="col-md-12">
-                  <form id="contactForm" name="contactform" data-toggle="validator" class="popup-form" novalidate="true">
-                    <div class="row">
-                      <div id="msgContactSubmit" class="hidden"></div>
+  <section id="contact" class="h100 bg-dark relativev white" >
 
-                      <div class="form-group col-sm-6 has-error has-danger">
-                        <div class="help-block with-errors">
-                          <ul class="list-unstyled">
-                            <li>Por favor ingresa tu nombre</li>
-                          </ul>
-                        </div>
-                        <input name="fname" id="fname" placeholder="Tu nombre*" class="form-control" type="text" required="" data-error="Por favor ingresa tu nombre">
-                        <div class="input-group-icon">
-                          <i class="fa fa-user"></i>
-                        </div>
-                      </div>
-                      <!-- end form-group -->
-                      <div class="form-group col-sm-6 has-error has-danger">
-                        <div class="help-block with-errors">
-                          <ul class="list-unstyled">
-                            <li>Por favor ingresa un correo electrónico válido</li>
-                          </ul>
-                        </div>
-                        <input name="email" id="email" placeholder="Tu E-mail*" pattern=".*@\w{2,}\.\w{2,}" class="form-control" type="email" required=""
-                          data-error="Por favor ingresa un correo electrónico válido">
-                        <div class="input-group-icon">
-                          <i class="fa fa-envelope"></i>
-                        </div>
-                      </div>
-                      <!-- end form-group -->
-                      <div class="form-group col-sm-6 has-error has-danger">
-                        <div class="help-block with-errors">
-                          <ul class="list-unstyled">
-                            <li>Por favor ingresa tu número de teléfono</li>
-                          </ul>
-                        </div>
-                        <input name="phone" id="phone" placeholder="Teléfono*" class="form-control" type="text" required="" data-error="Por favor ingresa tu número de teléfono">
-                        <div class="input-group-icon">
-                          <i class="fa fa-phone"></i>
-                        </div>
-                      </div>
-                      <!-- end form-group -->
-                      <div class="form-group col-sm-6 has-error has-danger">
-                        <div class="help-block with-errors">
-                          <ul class="list-unstyled">
-                            <li>Por favor ingresa el asunto</li>
-                          </ul>
-                        </div>
-                        <input name="subject" id="subject" placeholder="Asunto*" class="form-control" type="text" required="" data-error="Por favor ingresa el asunto">
-                        <div class="input-group-icon">
-                          <i class="fa fa-book"></i>
-                        </div>
-                      </div>
-                      <!-- end form-group -->
-                      <div class="form-group col-sm-12 has-error has-danger">
-                        <div class="help-block with-errors">
-                          <ul class="list-unstyled">
-                            <li>Por favor ingresa un mensaje</li>
-                          </ul>
-                        </div>
-                        <textarea rows="3" name="message" id="message" placeholder="Escribe tu comentario aquí*" class="form-control" required=""
-                          data-error="Por favor ingresa un mensaje"></textarea>
-                        <div class="textarea input-group-icon">
-                          <i class="fa fa-pencil"></i>
-                        </div>
-                      </div>
-                      <!-- end form-group -->
-                    <div class="form-group last col-sm-12">
-                        <button type="submit" id="submit" class="btn btn-custom disabled">
-                          <i class="fa fa-envelope"></i> Enviar</button>
-                      </div>
-                      <!-- end form-group -->
-                      <span class="sub-text">* Campos requeridos</span>
-                      <div class="clearfix"></div>
-                    </div>
-                    <!-- end row -->
-                  </form>
-                  <!-- end form -->
-                </div>
-              </div>
-              <!--End row -->
-              <!-- Popup end -->
-            </div>
-            <!-- end item-wrap -->
-          </div>
-          <!--End col -->
-        </div>
-        <!--End tab-content -->
-      </div>
-      <!--End row -->
+    <div class="text-center">
+      <h1 class="p-9 raleway">CONTACT</h1>
     </div>
-    <!--End container -->
+    <div class="d-flex align-items-center h300">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 col-lg-4 col-sm-4 text-center">
+            <a href="mailto:suttamargarita@gmail.com">
+                <i class="far fa-envelope icon-contact"></i>
+              <div class="mt-4">
+                <h4 class="link">Envíame un correo</h4>
+                <p class="white">suttamargarita@gmail.com</p>
+              </div>
+            </a>
+
+          </div>
+          <div class="col-12 col-lg-4 col-sm-4 text-center">
+            <a href="https://github.com/margaritasj" target="blank">
+              <i class="fab fa-github icon-contact"></i>
+              <div class="mt-4">
+                <h4 class="  link lato">Conoce mis proyectos</h4>
+                <p class=" white" href="" target="blank">/margaritasj</p>
+              </div>
+            </a>
+
+          </div>
+          <div class="col-12 col-lg-4 col-sm-4 text-center">
+            <a href="https://www.linkedin.com/in/margarita-sutta/" target="blank">
+              <i class="fab fa-linkedin icon-contact"></i>
+              <div class="mt-4">
+                <h4 class="link lato">Visita mi perfil</h4>
+                <p class="white ">/margarita-sutta</p>
+              </div>
+            </a>
+
+          </div>
+        </div>
+        <div class="text-center mt-3">
+          <a class="btn " href="assets/docs/cv-margaritasutta.pdf" download="cv-margaritasutta">Ver CV</a>
+        </div>
+      </div>
+    </div>
+    <footer class="white absolute text-center w-100 border-footer p-3 lato">
+      <p class="m-0"> © 2018
+        <span class="">by</span> <strong> Margarita Sutta Juarez</strong></p>
+    </footer>
+
   </section>
 
 
@@ -338,7 +282,8 @@
   <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
   <script src="vendors/js/particles.min.js"></script>
   <script src="js/index.js"></script>
-  <script src="js/contact-form.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
