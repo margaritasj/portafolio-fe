@@ -2,10 +2,10 @@
 
 $(window).scroll(function() {
   if ($('#navbar-portafolio').offset().top > 500) {
-    $('#navbar-portafolio').addClass('nav-yellow');
+    $('#navbar-portafolio').addClass('bg-dark');
     $('#navbar-portafolio').removeClass('transparent');
   } else {
-    $('#navbar-portafolio').removeClass('nav-yellow');
+    $('#navbar-portafolio').removeClass('bg-dark');
     $('#navbar-portafolio').addClass('transparent');
   }
 });
