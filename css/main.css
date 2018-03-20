@@ -43,12 +43,13 @@ nav {
   font-size: 1.2rem;
 }
 
-header nav.transparent {
-  background-color: transparent;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #ffc107;
 }
 
-.nav-yellow {
-  background-color:  #ffc107;
+header nav.transparent {
+  background-color: transparent;
 }
 
 .h-65 {
@@ -56,7 +57,7 @@ header nav.transparent {
 }
 
 .p-10 {
-  padding-top: 15rem;
+  padding-top: 10rem;
 }
 
 .p-2 {
@@ -74,6 +75,18 @@ header nav.transparent {
 .p-9 {
   padding-top: 9rem;
 }
+
+.p-10 {
+  padding-top: 10rem;
+}
+
+.p-12 {
+  padding-top: 12rem;
+} 
+
+.p-18 {
+  padding-top: 18rem;
+} 
 
 .down {
   color: rgb(236, 201, 147);
@@ -94,10 +107,12 @@ header nav.transparent {
 
 a {
   color: #ffc107;
+  
 }
 
 a:hover {
   color: #ffffff;
+  text-decoration: none;
 }
 
 .white {
@@ -129,7 +144,7 @@ a:hover {
 }
 
 .icons-title {
-  width: 8%;
+  width: 7%;
   padding-right: 1.5rem ;
 }
 
@@ -138,8 +153,8 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 50px;
-  height: 50px;
+  width: 250px;
+  height: 250px;
   border: 2rem;
   margin: 1rem;
 }
@@ -188,7 +203,7 @@ a:hover {
 }
 
 .projects {
-  height: 205vh;
+  height: 120vh;
   width: 100%;
   position: relative;
 }
@@ -211,7 +226,7 @@ a:hover {
 }
 
 .pd-work {
-  padding-top: 2.5em;
+  padding-top: 2rem;
 }
 
 .shadow {
@@ -220,12 +235,18 @@ a:hover {
   position: relative;
 }
 
-.work {
-  width: 100%;
+.li-style {
+  background:#ffc107;
+  color: white;
+  border-radius: 4px;
+  padding: 0.3rem;
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
-.tamanio-w {
-  width: 100%;
+
+.images-projects { 
+  width: 45vh;
 }
 
 .code {
@@ -237,7 +258,7 @@ a:hover {
 }
 
 .info {
-  padding: 1em;
+  padding: 0.5rem;
 }
 
 
@@ -245,6 +266,7 @@ a:hover {
   color: white;
   font-size: 2rem;
 }
+
 
 footer {
   font-size: 1rem;
@@ -260,6 +282,10 @@ footer {
   .title .study {
     font-size: 3rem;
     margin-top: 2.2rem;
+  }
+
+  .p-15 {
+    padding-top: 15rem;
   }
 
   .down {
