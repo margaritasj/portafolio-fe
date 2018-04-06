@@ -17,9 +17,13 @@
 </head>
 
 <body data-spy="scroll" data-target="#navbar-portafolio">
+  <!-- particles.js container -->
+  <div id="particles-js">
+  </div>
+
   <div class="bg-img">
     <header class="raleway" id="home">
-      <nav id="navbar-portafolio" class="navbar bg-dark transparent fixed-top pb-0 pt-0 navbar-expand-sm ">
+      <nav id="navbar-portafolio" class="navbar bg-dark transparent fixed-top pb-0 pt-0 navbar-expand-sm">
         <a class="navbar-brand white ml-3 raleway" data-scroll href="#welcome"> Margarita Sutta
           <img src="" alt="">
         </a>
@@ -29,7 +33,7 @@
         </button>
         <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
           <ul class="navbar-nav nav nav-pills ml-auto mt-2 mt-lg-0 ">
-            <li class="nav-item p-2 ">
+            <li class="nav-item p-2">
               <a class="nav-link upper space font-w1" data-scroll href="#about">SOBRE MI</a>
             </li>
             <li class="nav-item p-2">
@@ -45,7 +49,7 @@
         </div>
       </nav>
     </header>
-    <section class="p-18">
+    <section class="p-18 bg-img">
       <div class=" h-65 title text-center white">
         <h1 class="pacific">Margarita Sutta Juarez</h1>
         <h4 class="study raleway txt">Front-end Developer</h4>
@@ -60,10 +64,7 @@
       </div>
     </section>
   </div>
-  <!-- particles.js container -->
-  <div id="particles-js">
 
-  </div>
   <section id="about" class="container about text-center">
     <h3 class="raleway titulos smoove p-4">
       <img src="assets/images/avatar.svg" class="icons-title animated pulse infinite">SOBRE MÍ</h3>
@@ -103,7 +104,7 @@
     <hr>
     <div class="container pd-top-hab">
       <div class="row ">
-          <div class="col-4 col-xs-4 col-sm-2 col-md-2 col-lg-2 text-center habilidades smoove">
+        <div class="col-4 col-xs-4 col-sm-2 col-md-2 col-lg-2 text-center habilidades smoove">
           <span class="hvr-pop">
             <i class="devicon-html5-plain"></i>
           </span>
@@ -239,14 +240,14 @@
         <img src="assets/images/coding.svg" class="icons-title animated pulse infinite">PROYECTOS</h3>
       <hr>
     </div>
-    <div id="javascript">
+    <div class="container">
       <div class="row">
-        <div class="col-12 col-xs-12 col-sm-4 col-md-4 col-lg-4 pd-work text-center d-flex justify-content-center">
+        <div class="col-12 col-xs-12 col-sm-4 col-md-4 col-lg-4 pd-work text-center">
           <div class="shadow center-block smoove">
             <div class="info">
               <h4 class="raleway">LABCAR</h4>
               <hr>
-              <img src="assets/images/labcar.png" class="images-projects" alt="">
+              <img src="" class="images-projects" alt="">
               <hr>
               <div class="p-2">
                 <p class="lato">Aplicación móvil, realizado con jQuery, API google maps.</p>
@@ -264,9 +265,6 @@
                 <a href="" target="_blank" class="btn lato code blanco btn-outline-warning">Ver Código</a>
                 <a href="" target="_blank" class="btn lato code blanco btn-outline-warning">Ver Demo</a>
               </div>
-              <span class="hvr-grow absolute ocultar">
-                <i class="devicon-jquery-plain icon"></i>
-              </span>
             </div>
           </div>
         </div>
@@ -293,9 +291,6 @@
                 <a href="" target="_blank" class="btn lato code blanco btn-outline-warning">Ver Código</a>
                 <a href="" target="_blank" class="btn lato code blanco btn-outline-warning">Ver Demo</a>
               </div>
-              <span class="hvr-grow absolute ocultar">
-                <i class="devicon-jquery-plain icon"></i>
-              </span>
             </div>
           </div>
         </div>
@@ -322,19 +317,17 @@
                 <a href="" target="_blank" class="btn lato code blanco btn-outline-warning">Ver Código</a>
                 <a href="" target="_blank" class="btn lato code blanco btn-outline-warning">Ver Demo</a>
               </div>
-              <span class="hvr-grow absolute ocultar">
-                <i class="devicon-jquery-plain icon"></i>
-              </span>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
   <section id="contact" class="bg-dark contact white">
 
     <div class="text-center">
-      <h1 class="p-9 raleway">CONTACTO</h1>
+      <h1 class="p-5 raleway">CONTACTO</h1>
     </div>
     <div class="d-flex align-items-center h300 p-2">
       <div class="container">
@@ -371,7 +364,12 @@
           </div>
         </div>
         <div class="text-center mt-3 p-2">
-          <a class="btn btn-outline-warning" href="assets/docs/cv-margaritasutta.pdf" download="cv-margaritasutta">Descargar CV</a>
+          <a class="btn btn-outline-warning btn-cv" href="assets/docs/cv-margaritasutta.pdf" target="blank">
+            <strong>Ver CV</strong>
+          </a>
+          <a class="btn btn-outline-warning btn-cv" href="assets/docs/cv-margaritasutta.pdf" download="cv-margaritasutta">
+            <strong>Descargar CV</strong>
+          </a>
         </div>
       </div>
     </div>

@@ -9,3 +9,4 @@ $(window).scroll(function() {
     $('#navbar-portafolio').addClass('transparent');
   }
 });
+
