@@ -10,20 +10,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="vendors/css/animate.css">
   <link rel="stylesheet" href="vendors/css/hover.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body data-spy="scroll" data-target="#navbar-portafolio">
+<body data-spy="scroll">
   <!-- particles.js container -->
   <div id="particles-js">
   </div>
-
+  <!-- Portada -->
   <div class="bg-img">
     <header class="raleway" id="home">
-      <nav id="navbar-portafolio" class="navbar bg-dark transparent fixed-top pb-0 pt-0 navbar-expand-sm">
+      <nav id="navbar-portafolio" class="navbar transparent fixed-top pb-0 pt-0 navbar-expand-lg white">
         <a class="navbar-brand white ml-3 raleway" data-scroll href="#welcome"> Margarita Sutta
           <img src="" alt="">
         </a>
@@ -34,16 +33,16 @@
         <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
           <ul class="navbar-nav nav nav-pills ml-auto mt-2 mt-lg-0 ">
             <li class="nav-item p-2">
-              <a class="nav-link upper space font-w1" data-scroll href="#about">SOBRE MI</a>
+              <a class="nav-link upper white" data-scroll href="#about">SOBRE MÍ</a>
             </li>
             <li class="nav-item p-2">
-              <a class="nav-link upper space font-w1" data-scroll href="#skills">HABILIDADES</a>
+              <a class="nav-link upper white" data-scroll href="#skills">HABILIDADES</a>
             </li>
             <li class="nav-item p-2">
-              <a class="nav-link upper space font-w1" data-scroll href="#projects">PROYECTOS</a>
+              <a class="nav-link upper white" data-scroll href="#projects">PROYECTOS</a>
             </li>
             <li class="nav-item p-2">
-              <a class="nav-link upper space font-w1" data-scroll href="#contact">CONTACTO</a>
+              <a class="nav-link upper white" data-scroll href="#contact">CONTACTO</a>
             </li>
           </ul>
         </div>
@@ -64,16 +63,16 @@
       </div>
     </section>
   </div>
-
+  <!-- Section about -->
   <section id="about" class="container about text-center">
-    <h3 class="raleway titulos smoove p-4">
+    <h3 class="raleway smoove p-4">
       <img src="assets/images/avatar.svg" class="icons-title animated pulse infinite">SOBRE MÍ</h3>
     <hr>
     <div class="row align-baseline">
-      <div class="col-xs-12 col-sm-6 col-md-6 text-center d-flex justify-content-center pad-top p-2">
+      <div class="col-12 col-sm-12 col-md-5 col-lg-6 text-center d-flex justify-content-center pad-top p-2">
         <div class="photo img-thumbnail smoove"></div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-6 text-center negro pad-top-q">
+      <div class="col-12 col-sm-12 col-md-7 col-lg-6 text-center">
         <div>
           <div class="card border-light mb-3" style="max-width: 38rem;">
             <div class="card-header">
@@ -88,9 +87,9 @@
                 Egresada de la 7ta promoción de Laboratoria - Lima. Me apasiona poder crear algo nuevo solo con código. Poseo conocimientos
                 en diseño gráfico y base de datos.
               </p>
-              <p class="lato descrip smoove d-none d-sm-block">
+              <p class="lato descrip smoove">
                 Deseo poder seguir desarrollandome como full stack y UI developer, una de mis tantas metas es trabajar en una organización
-                involucrada con fines tecnologicos, educación y/o erradicacion de las vulnerabilidades hacia la mujer.
+                involucrada con fines tecnológicos, educación y/o erradicación de las vulnerabilidades hacia la mujer.
               </p>
             </div>
           </div>
@@ -98,11 +97,12 @@
       </div>
     </div>
   </section>
-  <section id="skills" class="container skills text-center p-6">
-    <h3 class="raleway titulos smoove">
+  <!-- Section skills -->
+  <section id="skills" class="container skills text-center p-5">
+    <h3 class="raleway smoove">
       <img src="assets/images/mortarboard.svg" class="icons-title animated pulse infinite">HABILIDADES</h3>
     <hr>
-    <div class="container pd-top-hab">
+    <div class="container">
       <div class="row ">
         <div class="col-4 col-xs-4 col-sm-2 col-md-2 col-lg-2 text-center habilidades smoove">
           <span class="hvr-pop">
@@ -230,27 +230,28 @@
           <br>
           <span class="lato sub-skills">Illustrator</span>
         </div>
-
       </div>
     </div>
   </section>
-  <section id="projects" class="container projects p-2">
+  <!-- Section projects -->
+  <section id="projects" class="container-fluid projects p-2">
     <div class="top text-center">
-      <h3 class="raleway titulos negro smoove">
+      <h3 class="raleway smoove">
         <img src="assets/images/coding.svg" class="icons-title animated pulse infinite">PROYECTOS</h3>
       <hr>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-12 col-xs-12 col-sm-4 col-md-4 col-lg-4 pd-work text-center">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pd-work text-center">
           <div class="shadow center-block smoove">
             <div class="info">
-              <h4 class="raleway">E-commerce COTHES</h4>
+              <h4 class="raleway">COTHES</h4>
               <hr>
-              <img src="assets/images/ecommerce.png" class="images-projects" alt="">
+              <img src="assets/images/ecommerce.png" class="images-projects img-thumbnail" alt="">
               <hr>
               <div class="p-2">
-                <p class="lato">E-commerce COTHES, es una tienda virtual de prendas y accesorios, esta basado bajo los principios de SPA (Single page aplication).</p>
+                <p class="lato">E-commerce COTHES, es una tienda virtual de prendas y accesorios, esta basado bajo los principios de SPA
+                  (Single page aplication).</p>
               </div>
               <div class="">
                 <ul class="text-capitalize li-none">
@@ -261,21 +262,22 @@
                 </ul>
               </div>
               <div class="bg-dark p-2 d-flex justify-content-between">
-                <a href="https://github.com/margaritasj/ecommerse-product-final" target="_blank" class="btn lato code blanco btn-outline-warning">Ver Código</a>
-                <a href="https://margaritasj.github.io/ecommerse-product-final/public/" target="_blank" class="btn lato code blanco btn-outline-warning">Ver Demo</a>
+                <a href="https://github.com/margaritasj/ecommerse-product-final" target="_blank" class="btn lato code white btn-outline-warning btn-code">Ver Código</a>
+                <a href="https://margaritasj.github.io/ecommerse-product-final/public/" target="_blank" class="btn lato code white btn-outline-warning btn-code">Ver Demo</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-xs-12 col-sm-4 col-md-4 col-lg-4 pd-work text-center">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pd-work text-center">
           <div class="shadow center-block smoove">
             <div class="info">
               <h4 class="raleway">LABCAR</h4>
               <hr>
-              <img src="assets/images/labcar.png" class="images-projects" alt="">
+              <img src="assets/images/labcar.png" class="images-projects img-thumbnail" alt="">
               <hr>
               <div class="p-2">
-                <p class="lato">Aplicación móvil que brinda servicios de taxi, permite al usuario realizar consulta del trayecto a través de Google Maps.</p>
+                <p class="lato">Aplicación móvil que brinda servicios de taxi, permite al usuario realizar consulta del trayecto a través
+                  de Google Maps.</p>
               </div>
               <div class="">
                 <ul class="text-capitalize li-none">
@@ -287,21 +289,22 @@
                 </ul>
               </div>
               <div class="bg-dark p-2 d-flex justify-content-between">
-                <a href="https://github.com/margaritasj/lab-car-boilerplate" target="_blank" class="btn lato code blanco btn-outline-warning">Ver Código</a>
-                <a href="https://margaritasj.github.io/lab-car-boilerplate/" target="_blank" class="btn lato code blanco btn-outline-warning">Ver Demo</a>
+                <a href="https://github.com/margaritasj/lab-car-boilerplate" target="_blank" class="btn lato code white btn-outline-warning btn-code">Ver Código</a>
+                <a href="https://margaritasj.github.io/lab-car-boilerplate/" target="_blank" class="btn lato code white btn-outline-warning btn-code">Ver Demo</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-xs-12 col-sm-4 col-md-4 col-lg-4 pd-work text-center">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 pd-work text-center">
           <div class="shadow center-block smoove">
             <div class="info">
               <h4 class="raleway">LYFT APP</h4>
               <hr>
-              <img src="assets/images/lyft.png" class="images-projects" alt="">
+              <img src="assets/images/lyft.png" class="images-projects img-thumbnail" alt="">
               <hr>
               <div class="p-2">
-                <p class="lato">Aplicación móvil de servicio de taxi, cuenta con una funcionalidad de registro de usuarios nuevos a través de un proceso que solicitara al usuario ingresar datos.</p>
+                <p class="lato">Aplicación móvil de servicio de taxi, cuenta con una funcionalidad de registro de usuarios nuevos a través
+                  de un proceso que solicitara al usuario ingresar datos.</p>
               </div>
               <div class="">
                 <ul class="text-capitalize li-none">
@@ -312,20 +315,22 @@
                 </ul>
               </div>
               <div class="bg-dark p-2 d-flex justify-content-between">
-                <a href="https://github.com/margaritasj/lyft-app" target="_blank" class="btn lato code blanco btn-outline-warning">Ver Código</a>
-                <a href="https://margaritasj.github.io/lyft-app/." target="_blank" class="btn lato code blanco btn-outline-warning">Ver Demo</a>
+                <a href="https://github.com/margaritasj/lyft-app" target="_blank" class="btn lato code btn-outline-warning btn-code">Ver Código</a>
+                <a href="https://margaritasj.github.io/lyft-app/." target="_blank" class="btn lato code btn-outline-warning btn-code">Ver Demo</a>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
+  <!-- Section contac -->
   <section id="contact" class="bg-dark contact white">
-
     <div class="text-center">
       <h1 class="p-5 raleway">CONTACTO</h1>
+    </div>
+    <div class="p-4 text-center raleway mg-bottom">
+      <h5> { Deseas conocerme y saber más sobre mí } </h5>
     </div>
     <div class="d-flex align-items-center h300 p-2">
       <div class="container">
@@ -344,7 +349,7 @@
             <a href="https://github.com/margaritasj" target="blank">
               <i class="fab fa-github icon-contact"></i>
               <div class="mt-4">
-                <h4 class="  link lato">Conoce mis proyectos</h4>
+                <h4 class="link lato">Conoce mis proyectos</h4>
                 <p class=" white" href="" target="blank">/margaritasj</p>
               </div>
             </a>
@@ -372,12 +377,13 @@
       </div>
     </div>
   </section>
-  <footer class="white absolute text-center w-100 border-footer p-3 lato">
+  <footer class="white text-center w-100 border-footer p-3 lato footer">
     <p class="m-0"> © 2018
-      <span class="">by</span>
+      <span class="">Dev - </span>
       <strong> Margarita Sutta Juarez</strong>
     </p>
   </footer>
+
 
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
