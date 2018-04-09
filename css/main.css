@@ -126,7 +126,7 @@ header nav.transparent {
 
 .about {
   z-index: -5;
-  height: 135vh;
+  height: 140vh;
   padding-top: 4em;
 }
 
@@ -155,7 +155,7 @@ header nav.transparent {
 
 .skills {
   width: 100%;
-  height: 130vh;
+  height: 145vh;
   position: relative;
   padding-top: 6rem;
 }
@@ -238,7 +238,7 @@ header nav.transparent {
 /* --- Section Contact --- */
 
 .contact {
-  height: 102vh;
+  height: 110vh;
   width: 100%;
   position: relative;
   background: url('http://thecodeplayer.com/u/m/b1.png') no-repeat center center fixed;
